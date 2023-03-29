@@ -150,6 +150,7 @@
       <h4>:jigsaw:  7.2 Back-End Developer (14/14) - Customize the Portal Search</h4>
       <ul>
          <li>Liferay Search Architecture</li>
+         <li>Basic Search Concepts</li>
          <liBasic Search Concepts</li>
          <li>Customize Indexing and Searching</li>
          <li>Exercise: <a href="">Implement Keyword Matching to Portal Search.</a></li>
