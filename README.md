@@ -27,4 +27,15 @@
          <li>OSGI Benefits.</li>
       </ul>
    </div>
+   <div>
+      <h4>:jigsaw:  7.2 Back-End Developer (3/14) - Liferay’s OSGi Container</h4>
+      <ul>
+         <li>Introduction to Liferay's OSGI Container</li>
+         <li>introducing liferay modules</li>
+         <li>Exercise: <a href="">Introducing Liferay Modules.</a></li>
+         <li>Working with Liferay workspace</li>
+         <li>Exercise: <a href="">Create a Liferay Module.</li>
+         <li>Manage module dependancies.</li>
+      </ul>
+   </div>
 </div>
