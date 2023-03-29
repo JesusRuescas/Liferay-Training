@@ -107,4 +107,19 @@
          <li>Exercise: <a href="">Overriding the Blogs Portlet view entry jsp.</li>
       </ul>
    </div>
+   <div>
+      <h4>:jigsaw:  7.2 Back-End Developer (9/14) - Extend Liferay Schema</h4>
+      <ul>
+         <li>Extend Liferay's Schema</li>
+         <li>Exercise: <a href="">Add a Custom Field Programmatically.</a></li>
+      </ul>
+   </div>
+   <div>
+      <h4>:jigsaw:  7.2 Back-End Developer (10/14) - Customize the Service Layer</h4>
+      <ul>
+         <li>Customize the Service Layer</li>
+         <li>Exercise: <a href="">Customize the Liferay UserLocalService with a Service Wrapper.</a></li>
+         <li>Override OSGI Service References</li>
+      </ul>
+   </div>
 </div>
