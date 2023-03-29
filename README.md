@@ -68,9 +68,27 @@
          <li>Create the Presentation Layers.</li>
          <li>Exercise: <a href="">Create the gradebook web module.</li>
          <li>Create the Presentation Layers part 2.</li>
-         <li>Exercise: <a href="">implement the manin view.</li>
-         <li>Exercise: <a href="">implement the manin view part 2.</li>
+         <li>Exercise: <a href="">Implement the manin view.</li>
+         <li>Exercise: <a href="">Implement the manin view part 2.</li>
          <li>Create the Presentation Layers part 3.</li>
+         <li>Implement the assignment editing view.</li>
+         <li>Implement the assignment editing view part 2.</li>
+         <li>Create the Presentation Layers part 4.</li>
+         <li>Implement validation.</li>
+         <li>Implement validation part 2.</li>
+         <li>Create the Presentation Layers part 5.</li>
+         <li>Exercise: <a href="">Add localization resources.</li>
+         <li>Create the Presentation Layers part 6.</li>
+         <li>Exercise: <a href="">Add CSS resources.</li>
+         <li>Implement Access Control.</li>
+         <li>Exercise: <a href="">Implement the assignment editing view.</li>
+         <li>Exercise: <a href="">Implement the assignment editing view part 2.</li>
+         <li>Exercise: <a href="">Implement service module permissions.</li>
+         <li>Exercise: <a href="">Implement service module permissions part 2.</li>
+         <li>Integrate with Asset Framework.</li>
+         <li>Exercise: <a href="">Integrate with the asset framework.</li>
+         <li>Integrate with Asset Framework part 2.</li>
+         <li>Exercise: <a href="">Implement Keyword Matching to Portal Search.</li>
       </ul>
    </div>
 </div>
