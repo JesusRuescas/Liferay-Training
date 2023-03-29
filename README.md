@@ -1,6 +1,5 @@
 # Liferay-Training
-This repository shows all my trajectory in the official Liferay training, here I will publish all the exercises done in the Liferay training.
-Training modules:
+#### This repository shows all my trajectory in the official Liferay training, here I will publish all the exercises done in the Liferay training.
 <div>
    <h2>:pushpin: 7.2 Back-End Developer</h2>
    <div>
