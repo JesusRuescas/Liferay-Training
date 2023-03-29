@@ -133,8 +133,10 @@
    <div>
       <h4>:jigsaw:  7.2 Back-End Developer (12/14) - Catch Portal Events</h4>
       <ul>
-         <li>7.2 Back-End Developer (12/14) - Catch Portal Events.</li>
-         <li>Exercise: <a href="">Create a Documents and Media Message Bus Listener.</a></li>
+         <li>Catch Portal Lifecycle Events.</li>
+         <li>Exercise: <a href="">Create a Post Login Action.</a></li>
+         <li>Intercept Events with Model Listeners.</li>
+         <li>Exercise: <a href="">Create a User Model Listener.</a></li>
       </ul>
    </div>
    <div>
