@@ -91,4 +91,10 @@
          <li>Exercise: <a href="">Implement Keyword Matching to Portal Search.</li>
       </ul>
    </div>
+       <div>
+      <h4>:jigsaw:  7.2 Back-End Developer (7/14) - Platform Architecture Overview</h4>
+      <ul>
+         <li>Platform Architecture Overview</li>
+      </ul>
+   </div>
 </div>
