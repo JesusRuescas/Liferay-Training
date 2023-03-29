@@ -22,3 +22,25 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 /.metadata/
+
+# ignore eclipse files and folders
+.project
+.classpath
+.settings
+.metadata
+.scala_dependencies
+.externalToolBuilders
+/.metadata
+/.recommenders
+/RemoteSystemsTempFiles
+
+# ignore overlay folders
+overlays
+
+# ignore IDEA files
+*.iml
+*.ipr
+*.iws
+.idea
+atlassian-ide-plugin.xml
+
