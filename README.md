@@ -16,7 +16,7 @@
          <li>Introduction to OSGI Basics. :white_check_mark:</li>
          <li>Bundles. :white_check_mark:</li>
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/hello-osgi">OSGI Architecture.</a> :white_check_mark: </li>
-         <li>Bundles part 2.:white_check_mark:</li>
+         <li>Bundles part 2. :white_check_mark:</li>
          <li>Exercise: Bundles. :white_check_mark: <strong>This exercise does not generate code</strong></li>
          <li>Components and Services 1.</li>
          <li>Components and Services part 2.</li>
