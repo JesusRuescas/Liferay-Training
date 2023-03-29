@@ -122,4 +122,35 @@
          <li>Override OSGI Service References</li>
       </ul>
    </div>
+   <div>
+      <h4>:jigsaw:  7.2 Back-End Developer (11/14) - Override Controller Actions</h4>
+      <ul>
+         <li>Override Portal MVC Commands</li>
+         <li>Exercise: <a href="">Override the Documents and Media MVC Action Command.</a></li>
+         <li>Override Struts Actions</li>
+      </ul>
+   </div>
+   <div>
+      <h4>:jigsaw:  7.2 Back-End Developer (12/14) - Catch Portal Events</h4>
+      <ul>
+         <li>7.2 Back-End Developer (12/14) - Catch Portal Events.</li>
+         <li>Exercise: <a href="">Create a Documents and Media Message Bus Listener.</a></li>
+      </ul>
+   </div>
+   <div>
+      <h4>:jigsaw:  7.2 Back-End Developer (13/14) - Leverage Liferay Message Bus</h4>
+      <ul>
+         <li>Leverage Liferay Message Bus.</li>
+         <li>Exercise: <a href="">Create a Documents and Media Message Bus Listener.</a></li>
+      </ul>
+   </div>
+    <div>
+      <h4>:jigsaw:  7.2 Back-End Developer (14/14) - Customize the Portal Search</h4>
+      <ul>
+         <li>Liferay Search Architecture</li>
+         <liBasic Search Concepts</li>
+         <li>Customize Indexing and Searching</li>
+         <li>Exercise: <a href="">Implement Keyword Matching to Portal Search.</a></li>
+      </ul>
+   </div>
 </div>
