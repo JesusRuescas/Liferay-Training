@@ -18,7 +18,7 @@
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/hello-osgi">OSGI Architecture.</a> :white_check_mark: </li>
          <li>Bundles part 2. :white_check_mark:</li>
          <li>Exercise: Bundles. :white_check_mark: <strong>This exercise does not generate code</strong></li>
-         <li>Components and Services 1.</li>
+         <li>Components and Services.</li>
          <li>Components and Services part 2.</li>
          <li>Exercise: Components and Services.</li>
          <li>Sharing Features.</li>
@@ -36,6 +36,24 @@
          <li>Working with Liferay workspace</li>
          <li>Exercise: <a href="">Create a Liferay Module.</li>
          <li>Manage module dependancies.</li>
+      </ul>
+   </div>
+   <div>
+      <h4>:jigsaw:  7.2 Back-End Developer (4/14) - Managing OSGi Bundles</h4>
+     <ul>
+         <li>Manage OSGI Bundles with the Gogo Shell.</li>
+         <li>Exercise: <a href="">Practice Gogo Shell Basic Commands.</li>
+      </ul>
+   </div>
+    <div>
+      <h4>:jigsaw:  7.2 Back-End Developer (5/14) - Working with Portlet Modules</h4>
+      <ul>
+         <li>Java Standard Portlet</li>
+         <li>Portlet Lifecycle.</li>
+         <li>Portlet Lifecycle part 2.</li>
+         <li>Portlet Lifecycle part 3.</li>
+         <li>Working with portlet modules.</li>
+         <li>Exercise: <a href="">Create a Liferay MVC Portlet Module.</li>
       </ul>
    </div>
 </div>
