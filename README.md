@@ -97,4 +97,14 @@
          <li>Platform Architecture Overview</li>
       </ul>
    </div>
+ <div>
+      <h4>:jigsaw:  7.2 Back-End Developer (8/14) - Customize the User Interface</h4>
+      <ul>
+         <li>Customize the User Interface</li>
+         <li>Change the Default Application UI with Widget Templates</li>
+         <li>Exercise: <a href="">Create a Media Gallery Widget Template.</a></li>
+         <li>Customize the Application JSPs</li>
+         <li>Exercise: <a href="">Overriding the Blogs Portlet view entry jsp.</li>
+      </ul>
+   </div>
 </div>
