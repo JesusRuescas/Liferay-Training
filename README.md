@@ -59,10 +59,10 @@
    <div>
       <h4>:jigsaw:  7.2 Back-End Developer (6/14) - Real World Application</h4>
       <ul>
-         <li>Develop a Real World Application Overview.</li>
-         <li>Introducing Liferay Service Builder.</li>
-         <li>Exercise: <a href="">Create the assignment service.</li>
-         <li>Introducing Liferay Service Builder part 2.</li>
+         <li>Develop a Real World Application Overview. :white_check_mark:</li>
+         <li>Introducing Liferay Service Builder. :white_check_mark:</li>
+         <li>Exercise: <a href="">Create the assignment service. :white_check_mark:</li>
+         <li>Introducing Liferay Service Builder part 2. :white_check_mark:</li>
          <li>Exercise: <a href="">Implement assignment local service.</li>
          <li>Exercise: <a href="">Implement assignment remote service.</li>
          <li>Create the Presentation Layers.</li>
