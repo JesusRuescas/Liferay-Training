@@ -11,7 +11,7 @@
       </ul>
    </div>
    <div>
-      <h4>:jigsaw:  7.2 Back-End Developer (2/14) - OSGi Basics</h4>
+      <h4>:jigsaw:  7.2 Back-End Developer (2/14) - OSGi Basics :white_check_mark:</h4>
       <ul>
          <li>Introduction to OSGI Basics. :white_check_mark:</li>
          <li>Bundles. :white_check_mark:</li>
@@ -22,9 +22,9 @@
          <li>Components and Services part 2. :white_check_mark:</li>
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/osgi-service">Components and Services. :white_check_mark:</li>
          <li>Sharing Features. :white_check_mark:</li>
-         <li>Exercise: Sharing Features.</li>
-         <li>OSGI Architecture.</li>
-         <li>OSGI Benefits.</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/clock-impl">Sharing Features. :white_check_mark:</li>
+         <li>OSGI Architecture. :white_check_mark:</li>
+         <li>OSGI Benefits. :white_check_mark:</li>
       </ul>
    </div>
    <div>
