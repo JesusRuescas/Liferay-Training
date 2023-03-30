@@ -34,8 +34,8 @@
          <li>introducing liferay modules. :white_check_mark:</li>
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace">Set up the Liferay Workspace and Portal.</a> :white_check_mark:</li>
          <li>Working with Liferay workspace. :white_check_mark:</li>
-         <li>Exercise: <a href="">Create a Liferay Module.</li>
-         <li>Manage module dependancies.</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules">Create a Liferay Module. :white_check_mark:</li>
+         <li>Manage module dependancies. :white_check_mark:</li>
       </ul>
    </div>
    <div>
