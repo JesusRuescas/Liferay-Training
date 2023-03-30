@@ -61,8 +61,8 @@
       <ul>
          <li>Develop a Real World Application Overview. :white_check_mark:</li>
          <li>Introducing Liferay Service Builder. :white_check_mark:</li>
-         <li>Exercise: <a href="">Create the assignment service. :white_check_mark:</li>
-         <li>Introducing Liferay Service Builder part 2. :white_check_mark:</li>
+         <li>Exercise: <a href="">Create the assignment service.</li>
+         <li>Introducing Liferay Service Builder part 2.</li>
          <li>Exercise: <a href="">Implement assignment local service.</li>
          <li>Exercise: <a href="">Implement assignment remote service.</li>
          <li>Create the Presentation Layers.</li>
