@@ -42,7 +42,7 @@
       <h4>:jigsaw:  7.2 Back-End Developer (4/14) - Managing OSGi Bundles</h4>
      <ul>
          <li>Manage OSGI Bundles with the Gogo Shell. :white_check_mark:</li>
-         <li>Exercise: <a href="">Practice Gogo Shell Basic Commands.</li>
+         <li>Exercise: Practice Gogo Shell Basic Commands. :white_check_mark: <strong>This exercise does not generate code</strong></li> 
       </ul>
    </div>
     <div>
