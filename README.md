@@ -39,7 +39,7 @@
       </ul>
    </div>
    <div>
-      <h4>:jigsaw:  7.2 Back-End Developer (4/14) - Managing OSGi Bundles</h4>
+      <h4>:jigsaw:  7.2 Back-End Developer (4/14) - Managing OSGi Bundles :white_check_mark:</h4>
      <ul>
          <li>Manage OSGI Bundles with the Gogo Shell. :white_check_mark:</li>
          <li>Exercise: Practice Gogo Shell Basic Commands. :white_check_mark: <strong>This exercise does not generate code</strong></li> 
@@ -48,11 +48,11 @@
     <div>
       <h4>:jigsaw:  7.2 Back-End Developer (5/14) - Working with Portlet Modules</h4>
       <ul>
-         <li>Java Standard Portlet</li>
-         <li>Portlet Lifecycle.</li>
-         <li>Portlet Lifecycle part 2.</li>
-         <li>Portlet Lifecycle part 3.</li>
-         <li>Working with portlet modules.</li>
+         <li>Java Standard Portlet. :white_check_mark:</li>
+         <li>Portlet Lifecycle. :white_check_mark:</li>
+         <li>Portlet Lifecycle part 2. :white_check_mark:</li>
+         <li>Portlet Lifecycle part 3. :white_check_mark:</li>
+         <li>Working with portlet modules. :white_check_mark:</li>
          <li>Exercise: <a href="">Create a Liferay MVC Portlet Module.</li>
       </ul>
    </div>
