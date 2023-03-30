@@ -46,14 +46,14 @@
       </ul>
    </div>
     <div>
-      <h4>:jigsaw:  7.2 Back-End Developer (5/14) - Working with Portlet Modules</h4>
+      <h4>:jigsaw:  7.2 Back-End Developer (5/14) - Working with Portlet Modules :white_check_mark:</h4>
       <ul>
          <li>Java Standard Portlet. :white_check_mark:</li>
          <li>Portlet Lifecycle. :white_check_mark:</li>
          <li>Portlet Lifecycle part 2. :white_check_mark:</li>
          <li>Portlet Lifecycle part 3. :white_check_mark:</li>
          <li>Working with portlet modules. :white_check_mark:</li>
-         <li>Exercise: <a href="">Create a Liferay MVC Portlet Module.</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/mvc-portlet-module">Create a Liferay MVC Portlet Module. :white_check_mark:</li>
       </ul>
    </div>
    <div>
