@@ -28,9 +28,9 @@
       </ul>
    </div>
    <div>
-      <h4>:jigsaw:  7.2 Back-End Developer (3/14) - Liferay’s OSGi Container</h4>
+      <h4>:jigsaw:  7.2 Back-End Developer (3/14) - Liferay’s OSGi Container :white_check_mark:</h4>
       <ul>
-         <li>Introduction to Liferay's OSGI Container</li>
+         <li>Introduction to Liferay's OSGI Container :white_check_mark:</li>
          <li>introducing liferay modules. :white_check_mark:</li>
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace">Set up the Liferay Workspace and Portal.</a> :white_check_mark:</li>
          <li>Working with Liferay workspace. :white_check_mark:</li>
@@ -39,20 +39,20 @@
       </ul>
    </div>
    <div>
-      <h4>:jigsaw:  7.2 Back-End Developer (4/14) - Managing OSGi Bundles</h4>
+      <h4>:jigsaw:  7.2 Back-End Developer (4/14) - Managing OSGi Bundles :white_check_mark:</h4>
      <ul>
-         <li>Manage OSGI Bundles with the Gogo Shell.</li>
-         <li>Exercise: <a href="">Practice Gogo Shell Basic Commands.</li>
+         <li>Manage OSGI Bundles with the Gogo Shell. :white_check_mark:</li>
+         <li>Exercise: Practice Gogo Shell Basic Commands. :white_check_mark: <strong>This exercise does not generate code</strong></li> 
       </ul>
    </div>
     <div>
       <h4>:jigsaw:  7.2 Back-End Developer (5/14) - Working with Portlet Modules</h4>
       <ul>
-         <li>Java Standard Portlet</li>
-         <li>Portlet Lifecycle.</li>
-         <li>Portlet Lifecycle part 2.</li>
-         <li>Portlet Lifecycle part 3.</li>
-         <li>Working with portlet modules.</li>
+         <li>Java Standard Portlet. :white_check_mark:</li>
+         <li>Portlet Lifecycle. :white_check_mark:</li>
+         <li>Portlet Lifecycle part 2. :white_check_mark:</li>
+         <li>Portlet Lifecycle part 3. :white_check_mark:</li>
+         <li>Working with portlet modules. :white_check_mark:</li>
          <li>Exercise: <a href="">Create a Liferay MVC Portlet Module.</li>
       </ul>
    </div>
