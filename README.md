@@ -20,7 +20,7 @@
          <li>Exercise: Bundles. :white_check_mark: <strong>This exercise does not generate code</strong></li>
          <li>Components and Services. :white_check_mark:</li>
          <li>Components and Services part 2. :white_check_mark:</li>
-         <li>Exercise: Components and Services. :white_check_mark:</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/osgi-service">Components and Services. :white_check_mark:</li>
          <li>Sharing Features. :white_check_mark:</li>
          <li>Exercise: Sharing Features.</li>
          <li>OSGI Architecture.</li>
