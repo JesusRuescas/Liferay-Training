@@ -69,14 +69,14 @@
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook/gradebook-web">Create the gradebook web module. :white_check_mark:</li>
          <li>Create the Presentation Layers part 2. :white_check_mark:</li>
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook/gradebook-web/src/main/resources/META-INF/resources">Implement the manin view. :white_check_mark:</li>
-         <li>Exercise: <a href="">Implement the manin view part 2.</li>
-         <li>Create the Presentation Layers part 3.</li>
-         <li>Implement the assignment editing view.</li>
-         <li>Implement the assignment editing view part 2.</li>
-         <li>Create the Presentation Layers part 4.</li>
-         <li>Implement validation.</li>
-         <li>Implement validation part 2.</li>
-         <li>Create the Presentation Layers part 5.</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook/gradebook-web/src/main/java/com/liferay/training/gradebook/web">Implement the manin view part 2. :white_check_mark:</li>
+         <li>Create the Presentation Layers part 3. :white_check_mark:</li>
+         <li>Implement the assignment editing view. :white_check_mark:</li>
+         <li>Implement the assignment editing view part 2. :white_check_mark:</li>
+         <li>Create the Presentation Layers part 4. :white_check_mark:</li>
+         <li>Implement validation. :white_check_mark:</li>
+         <li>Implement validation part 2. :white_check_mark:</li>
+         <li>Create the Presentation Layers part 5. :white_check_mark:</li>
          <li>Exercise: <a href="">Add localization resources.</li>
          <li>Create the Presentation Layers part 6.</li>
          <li>Exercise: <a href="">Add CSS resources.</li>
