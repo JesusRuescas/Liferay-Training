@@ -14,16 +14,10 @@
 
 package com.liferay.training.gradebook.service;
 
-import com.liferay.portal.kernel.dao.orm.DynamicQuery;
-import com.liferay.portal.kernel.exception.PortalException;
-import com.liferay.portal.kernel.model.PersistedModel;
-import com.liferay.portal.kernel.util.OrderByComparator;
-import com.liferay.training.gradebook.model.Assignment;
-
-import java.io.Serializable;
-
-import java.util.List;
-import java.util.Map;
+import org.osgi.annotation.versioning.ProviderType;
+import org.osgi.framework.Bundle;
+import org.osgi.framework.FrameworkUtil;
+import org.osgi.util.tracker.ServiceTracker;
 
 /**
  * Provides the local service utility for Assignment. This utility wraps
@@ -32,11 +26,11 @@ import java.util.Map;
  * on the local server. Methods of this service will not have security checks
  * based on the propagated JAAS credentials because this service can only be
  * accessed from within the same VM.
- *
- * @author Brian Wing Shun Chan
+
  * @see AssignmentLocalService
  * @generated
  */
+@ProviderType
 public class AssignmentLocalServiceUtil {
 
 	/*
@@ -48,23 +42,21 @@ public class AssignmentLocalServiceUtil {
 	/**
 	 * Adds the assignment to the database. Also notifies the appropriate model listeners.
 	 *
-	 * <p>
-	 * <strong>Important:</strong> Inspect AssignmentLocalServiceImpl for overloaded versions of the method. If provided, use these entry points to the API, as the implementation logic may require the additional parameters defined there.
-	 * </p>
-	 *
 	 * @param assignment the assignment
 	 * @return the assignment that was added
 	 */
-	public static Assignment addAssignment(Assignment assignment) {
+	public static com.liferay.training.gradebook.model.Assignment addAssignment(
+		com.liferay.training.gradebook.model.Assignment assignment) {
+
 		return getService().addAssignment(assignment);
 	}
 
-	public static Assignment addAssignment(
-			long groupId, Map<java.util.Locale, String> titleMap,
-			Map<java.util.Locale, String> descriptionMap,
+	public static com.liferay.training.gradebook.model.Assignment addAssignment(
+			long groupId, java.util.Map<java.util.Locale, String> titleMap,
+			java.util.Map<java.util.Locale, String> descriptionMap,
 			java.util.Date dueDate,
 			com.liferay.portal.kernel.service.ServiceContext serviceContext)
-		throws PortalException {
+		throws com.liferay.portal.kernel.exception.PortalException {
 
 		return getService().addAssignment(
 			groupId, titleMap, descriptionMap, dueDate, serviceContext);
@@ -76,37 +68,37 @@ public class AssignmentLocalServiceUtil {
 	 * @param assignmentId the primary key for the new assignment
 	 * @return the new assignment
 	 */
-	public static Assignment createAssignment(long assignmentId) {
+	public static com.liferay.training.gradebook.model.Assignment
+		createAssignment(long assignmentId) {
+
 		return getService().createAssignment(assignmentId);
 	}
 
 	/**
 	 * Deletes the assignment from the database. Also notifies the appropriate model listeners.
 	 *
-	 * <p>
-	 * <strong>Important:</strong> Inspect AssignmentLocalServiceImpl for overloaded versions of the method. If provided, use these entry points to the API, as the implementation logic may require the additional parameters defined there.
-	 * </p>
-	 *
 	 * @param assignment the assignment
 	 * @return the assignment that was removed
+	 * @throws PortalException
 	 */
-	public static Assignment deleteAssignment(Assignment assignment) {
+	public static com.liferay.training.gradebook.model.Assignment
+			deleteAssignment(
+				com.liferay.training.gradebook.model.Assignment assignment)
+		throws com.liferay.portal.kernel.exception.PortalException {
+
 		return getService().deleteAssignment(assignment);
 	}
 
 	/**
 	 * Deletes the assignment with the primary key from the database. Also notifies the appropriate model listeners.
 	 *
-	 * <p>
-	 * <strong>Important:</strong> Inspect AssignmentLocalServiceImpl for overloaded versions of the method. If provided, use these entry points to the API, as the implementation logic may require the additional parameters defined there.
-	 * </p>
-	 *
 	 * @param assignmentId the primary key of the assignment
 	 * @return the assignment that was removed
 	 * @throws PortalException if a assignment with the primary key could not be found
 	 */
-	public static Assignment deleteAssignment(long assignmentId)
-		throws PortalException {
+	public static com.liferay.training.gradebook.model.Assignment
+			deleteAssignment(long assignmentId)
+		throws com.liferay.portal.kernel.exception.PortalException {
 
 		return getService().deleteAssignment(assignmentId);
 	}
@@ -114,14 +106,17 @@ public class AssignmentLocalServiceUtil {
 	/**
 	 * @throws PortalException
 	 */
-	public static PersistedModel deletePersistedModel(
-			PersistedModel persistedModel)
-		throws PortalException {
+	public static com.liferay.portal.kernel.model.PersistedModel
+			deletePersistedModel(
+				com.liferay.portal.kernel.model.PersistedModel persistedModel)
+		throws com.liferay.portal.kernel.exception.PortalException {
 
 		return getService().deletePersistedModel(persistedModel);
 	}
 
-	public static DynamicQuery dynamicQuery() {
+	public static com.liferay.portal.kernel.dao.orm.DynamicQuery
+		dynamicQuery() {
+
 		return getService().dynamicQuery();
 	}
 
@@ -131,7 +126,9 @@ public class AssignmentLocalServiceUtil {
 	 * @param dynamicQuery the dynamic query
 	 * @return the matching rows
 	 */
-	public static <T> List<T> dynamicQuery(DynamicQuery dynamicQuery) {
+	public static <T> java.util.List<T> dynamicQuery(
+		com.liferay.portal.kernel.dao.orm.DynamicQuery dynamicQuery) {
+
 		return getService().dynamicQuery(dynamicQuery);
 	}
 
@@ -139,7 +136,7 @@ public class AssignmentLocalServiceUtil {
 	 * Performs a dynamic query on the database and returns a range of the matching rows.
 	 *
 	 * <p>
-	 * Useful when paginating results. Returns a maximum of <code>end - start</code> instances. <code>start</code> and <code>end</code> are not primary keys, they are indexes in the result set. Thus, <code>0</code> refers to the first result in the set. Setting both <code>start</code> and <code>end</code> to <code>com.liferay.portal.kernel.dao.orm.QueryUtil#ALL_POS</code> will return the full result set. If <code>orderByComparator</code> is specified, then the query will include the given ORDER BY logic. If <code>orderByComparator</code> is absent, then the query will include the default ORDER BY logic from <code>com.liferay.training.gradebook.model.impl.AssignmentModelImpl</code>.
+	 * Useful when paginating results. Returns a maximum of <code>end - start</code> instances. <code>start</code> and <code>end</code> are not primary keys, they are indexes in the result set. Thus, <code>0</code> refers to the first result in the set. Setting both <code>start</code> and <code>end</code> to <code>com.liferay.portal.kernel.dao.orm.QueryUtil#ALL_POS</code> will return the full result set. If <code>orderByComparator</code> is specified, then the query will include the given ORDER BY logic. If <code>orderByComparator</code> is absent and pagination is required (<code>start</code> and <code>end</code> are not <code>com.liferay.portal.kernel.dao.orm.QueryUtil#ALL_POS</code>), then the query will include the default ORDER BY logic from <code>com.liferay.training.gradebook.model.impl.AssignmentModelImpl</code>. If both <code>orderByComparator</code> and pagination are absent, for performance reasons, the query will not have an ORDER BY clause and the returned result set will be sorted on by the primary key in an ascending order.
 	 * </p>
 	 *
 	 * @param dynamicQuery the dynamic query
@@ -147,8 +144,9 @@ public class AssignmentLocalServiceUtil {
 	 * @param end the upper bound of the range of model instances (not inclusive)
 	 * @return the range of matching rows
 	 */
-	public static <T> List<T> dynamicQuery(
-		DynamicQuery dynamicQuery, int start, int end) {
+	public static <T> java.util.List<T> dynamicQuery(
+		com.liferay.portal.kernel.dao.orm.DynamicQuery dynamicQuery, int start,
+		int end) {
 
 		return getService().dynamicQuery(dynamicQuery, start, end);
 	}
@@ -157,7 +155,7 @@ public class AssignmentLocalServiceUtil {
 	 * Performs a dynamic query on the database and returns an ordered range of the matching rows.
 	 *
 	 * <p>
-	 * Useful when paginating results. Returns a maximum of <code>end - start</code> instances. <code>start</code> and <code>end</code> are not primary keys, they are indexes in the result set. Thus, <code>0</code> refers to the first result in the set. Setting both <code>start</code> and <code>end</code> to <code>com.liferay.portal.kernel.dao.orm.QueryUtil#ALL_POS</code> will return the full result set. If <code>orderByComparator</code> is specified, then the query will include the given ORDER BY logic. If <code>orderByComparator</code> is absent, then the query will include the default ORDER BY logic from <code>com.liferay.training.gradebook.model.impl.AssignmentModelImpl</code>.
+	 * Useful when paginating results. Returns a maximum of <code>end - start</code> instances. <code>start</code> and <code>end</code> are not primary keys, they are indexes in the result set. Thus, <code>0</code> refers to the first result in the set. Setting both <code>start</code> and <code>end</code> to <code>com.liferay.portal.kernel.dao.orm.QueryUtil#ALL_POS</code> will return the full result set. If <code>orderByComparator</code> is specified, then the query will include the given ORDER BY logic. If <code>orderByComparator</code> is absent and pagination is required (<code>start</code> and <code>end</code> are not <code>com.liferay.portal.kernel.dao.orm.QueryUtil#ALL_POS</code>), then the query will include the default ORDER BY logic from <code>com.liferay.training.gradebook.model.impl.AssignmentModelImpl</code>. If both <code>orderByComparator</code> and pagination are absent, for performance reasons, the query will not have an ORDER BY clause and the returned result set will be sorted on by the primary key in an ascending order.
 	 * </p>
 	 *
 	 * @param dynamicQuery the dynamic query
@@ -166,9 +164,10 @@ public class AssignmentLocalServiceUtil {
 	 * @param orderByComparator the comparator to order the results by (optionally <code>null</code>)
 	 * @return the ordered range of matching rows
 	 */
-	public static <T> List<T> dynamicQuery(
-		DynamicQuery dynamicQuery, int start, int end,
-		OrderByComparator<T> orderByComparator) {
+	public static <T> java.util.List<T> dynamicQuery(
+		com.liferay.portal.kernel.dao.orm.DynamicQuery dynamicQuery, int start,
+		int end,
+		com.liferay.portal.kernel.util.OrderByComparator<T> orderByComparator) {
 
 		return getService().dynamicQuery(
 			dynamicQuery, start, end, orderByComparator);
@@ -180,7 +179,9 @@ public class AssignmentLocalServiceUtil {
 	 * @param dynamicQuery the dynamic query
 	 * @return the number of rows matching the dynamic query
 	 */
-	public static long dynamicQueryCount(DynamicQuery dynamicQuery) {
+	public static long dynamicQueryCount(
+		com.liferay.portal.kernel.dao.orm.DynamicQuery dynamicQuery) {
+
 		return getService().dynamicQueryCount(dynamicQuery);
 	}
 
@@ -192,13 +193,15 @@ public class AssignmentLocalServiceUtil {
 	 * @return the number of rows matching the dynamic query
 	 */
 	public static long dynamicQueryCount(
-		DynamicQuery dynamicQuery,
+		com.liferay.portal.kernel.dao.orm.DynamicQuery dynamicQuery,
 		com.liferay.portal.kernel.dao.orm.Projection projection) {
 
 		return getService().dynamicQueryCount(dynamicQuery, projection);
 	}
 
-	public static Assignment fetchAssignment(long assignmentId) {
+	public static com.liferay.training.gradebook.model.Assignment
+		fetchAssignment(long assignmentId) {
+
 		return getService().fetchAssignment(assignmentId);
 	}
 
@@ -209,8 +212,8 @@ public class AssignmentLocalServiceUtil {
 	 * @param groupId the primary key of the group
 	 * @return the matching assignment, or <code>null</code> if a matching assignment could not be found
 	 */
-	public static Assignment fetchAssignmentByUuidAndGroupId(
-		String uuid, long groupId) {
+	public static com.liferay.training.gradebook.model.Assignment
+		fetchAssignmentByUuidAndGroupId(String uuid, long groupId) {
 
 		return getService().fetchAssignmentByUuidAndGroupId(uuid, groupId);
 	}
@@ -228,8 +231,9 @@ public class AssignmentLocalServiceUtil {
 	 * @return the assignment
 	 * @throws PortalException if a assignment with the primary key could not be found
 	 */
-	public static Assignment getAssignment(long assignmentId)
-		throws PortalException {
+	public static com.liferay.training.gradebook.model.Assignment getAssignment(
+			long assignmentId)
+		throws com.liferay.portal.kernel.exception.PortalException {
 
 		return getService().getAssignment(assignmentId);
 	}
@@ -242,9 +246,9 @@ public class AssignmentLocalServiceUtil {
 	 * @return the matching assignment
 	 * @throws PortalException if a matching assignment could not be found
 	 */
-	public static Assignment getAssignmentByUuidAndGroupId(
-			String uuid, long groupId)
-		throws PortalException {
+	public static com.liferay.training.gradebook.model.Assignment
+			getAssignmentByUuidAndGroupId(String uuid, long groupId)
+		throws com.liferay.portal.kernel.exception.PortalException {
 
 		return getService().getAssignmentByUuidAndGroupId(uuid, groupId);
 	}
@@ -253,38 +257,53 @@ public class AssignmentLocalServiceUtil {
 	 * Returns a range of all the assignments.
 	 *
 	 * <p>
-	 * Useful when paginating results. Returns a maximum of <code>end - start</code> instances. <code>start</code> and <code>end</code> are not primary keys, they are indexes in the result set. Thus, <code>0</code> refers to the first result in the set. Setting both <code>start</code> and <code>end</code> to <code>com.liferay.portal.kernel.dao.orm.QueryUtil#ALL_POS</code> will return the full result set. If <code>orderByComparator</code> is specified, then the query will include the given ORDER BY logic. If <code>orderByComparator</code> is absent, then the query will include the default ORDER BY logic from <code>com.liferay.training.gradebook.model.impl.AssignmentModelImpl</code>.
+	 * Useful when paginating results. Returns a maximum of <code>end - start</code> instances. <code>start</code> and <code>end</code> are not primary keys, they are indexes in the result set. Thus, <code>0</code> refers to the first result in the set. Setting both <code>start</code> and <code>end</code> to <code>com.liferay.portal.kernel.dao.orm.QueryUtil#ALL_POS</code> will return the full result set. If <code>orderByComparator</code> is specified, then the query will include the given ORDER BY logic. If <code>orderByComparator</code> is absent and pagination is required (<code>start</code> and <code>end</code> are not <code>com.liferay.portal.kernel.dao.orm.QueryUtil#ALL_POS</code>), then the query will include the default ORDER BY logic from <code>com.liferay.training.gradebook.model.impl.AssignmentModelImpl</code>. If both <code>orderByComparator</code> and pagination are absent, for performance reasons, the query will not have an ORDER BY clause and the returned result set will be sorted on by the primary key in an ascending order.
 	 * </p>
 	 *
 	 * @param start the lower bound of the range of assignments
 	 * @param end the upper bound of the range of assignments (not inclusive)
 	 * @return the range of assignments
 	 */
-	public static List<Assignment> getAssignments(int start, int end) {
+	public static java.util.List
+		<com.liferay.training.gradebook.model.Assignment> getAssignments(
+			int start, int end) {
+
 		return getService().getAssignments(start, end);
 	}
 
-	public static List<Assignment> getAssignmentsByGroupId(long groupId) {
+	public static java.util.List
+		<com.liferay.training.gradebook.model.Assignment>
+			getAssignmentsByGroupId(long groupId) {
+
 		return getService().getAssignmentsByGroupId(groupId);
 	}
 
-	public static List<Assignment> getAssignmentsByGroupId(
-		long groupId, int start, int end) {
+	public static java.util.List
+		<com.liferay.training.gradebook.model.Assignment>
+			getAssignmentsByGroupId(long groupId, int start, int end) {
 
 		return getService().getAssignmentsByGroupId(groupId, start, end);
 	}
 
-	public static List<Assignment> getAssignmentsByGroupId(
-		long groupId, int start, int end,
-		OrderByComparator<Assignment> orderByComparator) {
+	public static java.util.List
+		<com.liferay.training.gradebook.model.Assignment>
+			getAssignmentsByGroupId(
+				long groupId, int start, int end,
+				com.liferay.portal.kernel.util.OrderByComparator
+					<com.liferay.training.gradebook.model.Assignment>
+						orderByComparator) {
 
 		return getService().getAssignmentsByGroupId(
 			groupId, start, end, orderByComparator);
 	}
 
-	public static List<Assignment> getAssignmentsByKeywords(
-		long groupId, String keywords, int start, int end,
-		OrderByComparator<Assignment> orderByComparator) {
+	public static java.util.List
+		<com.liferay.training.gradebook.model.Assignment>
+			getAssignmentsByKeywords(
+				long groupId, String keywords, int start, int end,
+				com.liferay.portal.kernel.util.OrderByComparator
+					<com.liferay.training.gradebook.model.Assignment>
+						orderByComparator) {
 
 		return getService().getAssignmentsByKeywords(
 			groupId, keywords, start, end, orderByComparator);
@@ -297,8 +316,9 @@ public class AssignmentLocalServiceUtil {
 	 * @param companyId the primary key of the company
 	 * @return the matching assignments, or an empty list if no matches were found
 	 */
-	public static List<Assignment> getAssignmentsByUuidAndCompanyId(
-		String uuid, long companyId) {
+	public static java.util.List
+		<com.liferay.training.gradebook.model.Assignment>
+			getAssignmentsByUuidAndCompanyId(String uuid, long companyId) {
 
 		return getService().getAssignmentsByUuidAndCompanyId(uuid, companyId);
 	}
@@ -313,9 +333,13 @@ public class AssignmentLocalServiceUtil {
 	 * @param orderByComparator the comparator to order the results by (optionally <code>null</code>)
 	 * @return the range of matching assignments, or an empty list if no matches were found
 	 */
-	public static List<Assignment> getAssignmentsByUuidAndCompanyId(
-		String uuid, long companyId, int start, int end,
-		OrderByComparator<Assignment> orderByComparator) {
+	public static java.util.List
+		<com.liferay.training.gradebook.model.Assignment>
+			getAssignmentsByUuidAndCompanyId(
+				String uuid, long companyId, int start, int end,
+				com.liferay.portal.kernel.util.OrderByComparator
+					<com.liferay.training.gradebook.model.Assignment>
+						orderByComparator) {
 
 		return getService().getAssignmentsByUuidAndCompanyId(
 			uuid, companyId, start, end, orderByComparator);
@@ -360,11 +384,9 @@ public class AssignmentLocalServiceUtil {
 		return getService().getOSGiServiceIdentifier();
 	}
 
-	/**
-	 * @throws PortalException
-	 */
-	public static PersistedModel getPersistedModel(Serializable primaryKeyObj)
-		throws PortalException {
+	public static com.liferay.portal.kernel.model.PersistedModel
+			getPersistedModel(java.io.Serializable primaryKeyObj)
+		throws com.liferay.portal.kernel.exception.PortalException {
 
 		return getService().getPersistedModel(primaryKeyObj);
 	}
@@ -372,32 +394,49 @@ public class AssignmentLocalServiceUtil {
 	/**
 	 * Updates the assignment in the database or adds it if it does not yet exist. Also notifies the appropriate model listeners.
 	 *
-	 * <p>
-	 * <strong>Important:</strong> Inspect AssignmentLocalServiceImpl for overloaded versions of the method. If provided, use these entry points to the API, as the implementation logic may require the additional parameters defined there.
-	 * </p>
-	 *
 	 * @param assignment the assignment
 	 * @return the assignment that was updated
 	 */
-	public static Assignment updateAssignment(Assignment assignment) {
+	public static com.liferay.training.gradebook.model.Assignment
+		updateAssignment(
+			com.liferay.training.gradebook.model.Assignment assignment) {
+
 		return getService().updateAssignment(assignment);
 	}
 
-	public static Assignment updateAssignment(
-			long assignmentId, Map<java.util.Locale, String> titleMap,
-			Map<java.util.Locale, String> descriptionMap,
-			java.util.Date dueDate,
-			com.liferay.portal.kernel.service.ServiceContext serviceContext)
-		throws PortalException {
+	public static com.liferay.training.gradebook.model.Assignment
+			updateAssignment(
+				long assignmentId,
+				java.util.Map<java.util.Locale, String> titleMap,
+				java.util.Map<java.util.Locale, String> descriptionMap,
+				java.util.Date dueDate,
+				com.liferay.portal.kernel.service.ServiceContext serviceContext)
+		throws com.liferay.portal.kernel.exception.PortalException {
 
 		return getService().updateAssignment(
 			assignmentId, titleMap, descriptionMap, dueDate, serviceContext);
 	}
 
 	public static AssignmentLocalService getService() {
-		return _service;
+		return _serviceTracker.getService();
 	}
 
-	private static volatile AssignmentLocalService _service;
+	private static ServiceTracker
+		<AssignmentLocalService, AssignmentLocalService> _serviceTracker;
+
+	static {
+		Bundle bundle = FrameworkUtil.getBundle(AssignmentLocalService.class);
+
+		ServiceTracker<AssignmentLocalService, AssignmentLocalService>
+			serviceTracker =
+				new ServiceTracker
+					<AssignmentLocalService, AssignmentLocalService>(
+						bundle.getBundleContext(), AssignmentLocalService.class,
+						null);
+
+		serviceTracker.open();
+
+		_serviceTracker = serviceTracker;
+	}
 
 }

@@ -9,5 +9,9 @@ create table Gradebook_Assignment (
 	modifiedDate DATE null,
 	title STRING null,
 	description STRING null,
-	dueDate DATE null
+	dueDate DATE null,
+	status INTEGER,
+	statusByUserId LONG,
+	statusByUserName VARCHAR(75) null,
+	statusDate DATE null
 );

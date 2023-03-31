@@ -13,11 +13,12 @@
  */
 package com.liferay.training.gradebook.exception;
 
+import org.osgi.annotation.versioning.ProviderType;
+
 import com.liferay.portal.kernel.exception.NoSuchModelException;
 
-/**
- * @author Brian Wing Shun Chan
- */
+
+@ProviderType
 public class NoSuchAssignmentException extends NoSuchModelException {
 
 	public NoSuchAssignmentException() {
@@ -27,12 +28,12 @@ public class NoSuchAssignmentException extends NoSuchModelException {
 		super(msg);
 	}
 
-	public NoSuchAssignmentException(String msg, Throwable throwable) {
-		super(msg, throwable);
+	public NoSuchAssignmentException(String msg, Throwable cause) {
+		super(msg, cause);
 	}
 
-	public NoSuchAssignmentException(Throwable throwable) {
-		super(throwable);
+	public NoSuchAssignmentException(Throwable cause) {
+		super(cause);
 	}
 
 }

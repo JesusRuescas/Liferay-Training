@@ -1,8 +1,6 @@
 package com.liferay.training.portlet.diff.constants;
 
-/**
- * @author safira-cli
- */
+
 public class TrainingMVCPortletDiffPortletKeys {
 
 	public static final String TRAININGMVCPORTLETDIFF =

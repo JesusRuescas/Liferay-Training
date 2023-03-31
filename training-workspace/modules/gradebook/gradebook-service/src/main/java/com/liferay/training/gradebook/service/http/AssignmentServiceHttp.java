@@ -22,6 +22,8 @@ import com.liferay.portal.kernel.util.MethodHandler;
 import com.liferay.portal.kernel.util.MethodKey;
 import com.liferay.training.gradebook.service.AssignmentServiceUtil;
 
+import org.osgi.annotation.versioning.ProviderType;
+
 /**
  * Provides the HTTP utility for the
  * <code>AssignmentServiceUtil</code> service
@@ -44,11 +46,11 @@ import com.liferay.training.gradebook.service.AssignmentServiceUtil;
  * <p>
  * The HTTP utility is only generated for remote services.
  * </p>
- *
- * @author Brian Wing Shun Chan
+
  * @see AssignmentServiceSoap
  * @generated
  */
+@ProviderType
 public class AssignmentServiceHttp {
 
 	public static com.liferay.training.gradebook.model.Assignment addAssignment(
@@ -73,26 +75,24 @@ public class AssignmentServiceHttp {
 			try {
 				returnObj = TunnelUtil.invoke(httpPrincipal, methodHandler);
 			}
-			catch (Exception exception) {
-				if (exception instanceof
+			catch (Exception e) {
+				if (e instanceof
 						com.liferay.portal.kernel.exception.PortalException) {
 
 					throw (com.liferay.portal.kernel.exception.PortalException)
-						exception;
+						e;
 				}
 
 				throw new com.liferay.portal.kernel.exception.SystemException(
-					exception);
+					e);
 			}
 
 			return (com.liferay.training.gradebook.model.Assignment)returnObj;
 		}
-		catch (com.liferay.portal.kernel.exception.SystemException
-					systemException) {
+		catch (com.liferay.portal.kernel.exception.SystemException se) {
+			_log.error(se, se);
 
-			_log.error(systemException, systemException);
-
-			throw systemException;
+			throw se;
 		}
 	}
 
@@ -113,26 +113,24 @@ public class AssignmentServiceHttp {
 			try {
 				returnObj = TunnelUtil.invoke(httpPrincipal, methodHandler);
 			}
-			catch (Exception exception) {
-				if (exception instanceof
+			catch (Exception e) {
+				if (e instanceof
 						com.liferay.portal.kernel.exception.PortalException) {
 
 					throw (com.liferay.portal.kernel.exception.PortalException)
-						exception;
+						e;
 				}
 
 				throw new com.liferay.portal.kernel.exception.SystemException(
-					exception);
+					e);
 			}
 
 			return (com.liferay.training.gradebook.model.Assignment)returnObj;
 		}
-		catch (com.liferay.portal.kernel.exception.SystemException
-					systemException) {
+		catch (com.liferay.portal.kernel.exception.SystemException se) {
+			_log.error(se, se);
 
-			_log.error(systemException, systemException);
-
-			throw systemException;
+			throw se;
 		}
 	}
 
@@ -153,26 +151,24 @@ public class AssignmentServiceHttp {
 			try {
 				returnObj = TunnelUtil.invoke(httpPrincipal, methodHandler);
 			}
-			catch (Exception exception) {
-				if (exception instanceof
+			catch (Exception e) {
+				if (e instanceof
 						com.liferay.portal.kernel.exception.PortalException) {
 
 					throw (com.liferay.portal.kernel.exception.PortalException)
-						exception;
+						e;
 				}
 
 				throw new com.liferay.portal.kernel.exception.SystemException(
-					exception);
+					e);
 			}
 
 			return (com.liferay.training.gradebook.model.Assignment)returnObj;
 		}
-		catch (com.liferay.portal.kernel.exception.SystemException
-					systemException) {
+		catch (com.liferay.portal.kernel.exception.SystemException se) {
+			_log.error(se, se);
 
-			_log.error(systemException, systemException);
-
-			throw systemException;
+			throw se;
 		}
 	}
 
@@ -192,20 +188,18 @@ public class AssignmentServiceHttp {
 			try {
 				returnObj = TunnelUtil.invoke(httpPrincipal, methodHandler);
 			}
-			catch (Exception exception) {
+			catch (Exception e) {
 				throw new com.liferay.portal.kernel.exception.SystemException(
-					exception);
+					e);
 			}
 
 			return (java.util.List
 				<com.liferay.training.gradebook.model.Assignment>)returnObj;
 		}
-		catch (com.liferay.portal.kernel.exception.SystemException
-					systemException) {
+		catch (com.liferay.portal.kernel.exception.SystemException se) {
+			_log.error(se, se);
 
-			_log.error(systemException, systemException);
-
-			throw systemException;
+			throw se;
 		}
 	}
 
@@ -231,20 +225,18 @@ public class AssignmentServiceHttp {
 			try {
 				returnObj = TunnelUtil.invoke(httpPrincipal, methodHandler);
 			}
-			catch (Exception exception) {
+			catch (Exception e) {
 				throw new com.liferay.portal.kernel.exception.SystemException(
-					exception);
+					e);
 			}
 
 			return (java.util.List
 				<com.liferay.training.gradebook.model.Assignment>)returnObj;
 		}
-		catch (com.liferay.portal.kernel.exception.SystemException
-					systemException) {
+		catch (com.liferay.portal.kernel.exception.SystemException se) {
+			_log.error(se, se);
 
-			_log.error(systemException, systemException);
-
-			throw systemException;
+			throw se;
 		}
 	}
 
@@ -264,19 +256,17 @@ public class AssignmentServiceHttp {
 			try {
 				returnObj = TunnelUtil.invoke(httpPrincipal, methodHandler);
 			}
-			catch (Exception exception) {
+			catch (Exception e) {
 				throw new com.liferay.portal.kernel.exception.SystemException(
-					exception);
+					e);
 			}
 
 			return ((Long)returnObj).longValue();
 		}
-		catch (com.liferay.portal.kernel.exception.SystemException
-					systemException) {
+		catch (com.liferay.portal.kernel.exception.SystemException se) {
+			_log.error(se, se);
 
-			_log.error(systemException, systemException);
-
-			throw systemException;
+			throw se;
 		}
 	}
 
@@ -303,26 +293,24 @@ public class AssignmentServiceHttp {
 			try {
 				returnObj = TunnelUtil.invoke(httpPrincipal, methodHandler);
 			}
-			catch (Exception exception) {
-				if (exception instanceof
+			catch (Exception e) {
+				if (e instanceof
 						com.liferay.portal.kernel.exception.PortalException) {
 
 					throw (com.liferay.portal.kernel.exception.PortalException)
-						exception;
+						e;
 				}
 
 				throw new com.liferay.portal.kernel.exception.SystemException(
-					exception);
+					e);
 			}
 
 			return (com.liferay.training.gradebook.model.Assignment)returnObj;
 		}
-		catch (com.liferay.portal.kernel.exception.SystemException
-					systemException) {
+		catch (com.liferay.portal.kernel.exception.SystemException se) {
+			_log.error(se, se);
 
-			_log.error(systemException, systemException);
-
-			throw systemException;
+			throw se;
 		}
 	}
 

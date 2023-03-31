@@ -8,9 +8,7 @@ import javax.portlet.Portlet;
 
 import org.osgi.service.component.annotations.Component;
 
-/**
- * @author safira-cli
- */
+
 @Component(
 	immediate = true,
 	property = {

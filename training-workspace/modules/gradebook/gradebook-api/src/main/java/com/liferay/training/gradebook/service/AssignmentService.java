@@ -37,8 +37,7 @@ import org.osgi.annotation.versioning.ProviderType;
  * Provides the remote service interface for Assignment. Methods of this
  * service are expected to have security checks based on the propagated JAAS
  * credentials because this service can be accessed remotely.
- *
- * @author Brian Wing Shun Chan
+
  * @see AssignmentServiceUtil
  * @generated
  */
@@ -54,7 +53,7 @@ public interface AssignmentService extends BaseService {
 	/*
 	 * NOTE FOR DEVELOPERS:
 	 *
-	 * Never modify this interface directly. Add custom service methods to <code>com.liferay.training.gradebook.service.impl.AssignmentServiceImpl</code> and rerun ServiceBuilder to automatically copy the method declarations to this interface. Consume the assignment remote service via injection or a <code>org.osgi.util.tracker.ServiceTracker</code>. Use {@link AssignmentServiceUtil} if injection and service tracking are not available.
+	 * Never modify or reference this interface directly. Always use {@link AssignmentServiceUtil} to access the assignment remote service. Add custom service methods to <code>com.liferay.training.gradebook.service.impl.AssignmentServiceImpl</code> and rerun ServiceBuilder to automatically copy the method declarations to this interface.
 	 */
 	public Assignment addAssignment(
 			long groupId, Map<Locale, String> titleMap,

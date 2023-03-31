@@ -1,3 +1,4 @@
+
 <%@ include file="/init.jsp"%>
 
 <portlet:renderURL var="viewAssignmentURL">

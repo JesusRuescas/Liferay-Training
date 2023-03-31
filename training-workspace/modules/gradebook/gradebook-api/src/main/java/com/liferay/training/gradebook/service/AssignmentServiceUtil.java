@@ -14,12 +14,10 @@
 
 package com.liferay.training.gradebook.service;
 
-import com.liferay.portal.kernel.exception.PortalException;
-import com.liferay.portal.kernel.util.OrderByComparator;
-import com.liferay.training.gradebook.model.Assignment;
-
-import java.util.List;
-import java.util.Map;
+import org.osgi.annotation.versioning.ProviderType;
+import org.osgi.framework.Bundle;
+import org.osgi.framework.FrameworkUtil;
+import org.osgi.util.tracker.ServiceTracker;
 
 /**
  * Provides the remote service utility for Assignment. This utility wraps
@@ -28,11 +26,11 @@ import java.util.Map;
  * remote server. Methods of this service are expected to have security checks
  * based on the propagated JAAS credentials because this service can be
  * accessed remotely.
- *
- * @author Brian Wing Shun Chan
+
  * @see AssignmentService
  * @generated
  */
+@ProviderType
 public class AssignmentServiceUtil {
 
 	/*
@@ -40,36 +38,45 @@ public class AssignmentServiceUtil {
 	 *
 	 * Never modify this class directly. Add custom service methods to <code>com.liferay.training.gradebook.service.impl.AssignmentServiceImpl</code> and rerun ServiceBuilder to regenerate this class.
 	 */
-	public static Assignment addAssignment(
-			long groupId, Map<java.util.Locale, String> titleMap,
-			Map<java.util.Locale, String> descriptionMap,
+	public static com.liferay.training.gradebook.model.Assignment addAssignment(
+			long groupId, java.util.Map<java.util.Locale, String> titleMap,
+			java.util.Map<java.util.Locale, String> descriptionMap,
 			java.util.Date dueDate,
 			com.liferay.portal.kernel.service.ServiceContext serviceContext)
-		throws PortalException {
+		throws com.liferay.portal.kernel.exception.PortalException {
 
 		return getService().addAssignment(
 			groupId, titleMap, descriptionMap, dueDate, serviceContext);
 	}
 
-	public static Assignment deleteAssignment(long assignmentId)
-		throws PortalException {
+	public static com.liferay.training.gradebook.model.Assignment
+			deleteAssignment(long assignmentId)
+		throws com.liferay.portal.kernel.exception.PortalException {
 
 		return getService().deleteAssignment(assignmentId);
 	}
 
-	public static Assignment getAssignment(long assignmentId)
-		throws PortalException {
+	public static com.liferay.training.gradebook.model.Assignment getAssignment(
+			long assignmentId)
+		throws com.liferay.portal.kernel.exception.PortalException {
 
 		return getService().getAssignment(assignmentId);
 	}
 
-	public static List<Assignment> getAssignmentsByGroupId(long groupId) {
+	public static java.util.List
+		<com.liferay.training.gradebook.model.Assignment>
+			getAssignmentsByGroupId(long groupId) {
+
 		return getService().getAssignmentsByGroupId(groupId);
 	}
 
-	public static List<Assignment> getAssignmentsByKeywords(
-		long groupId, String keywords, int start, int end,
-		OrderByComparator<Assignment> orderByComparator) {
+	public static java.util.List
+		<com.liferay.training.gradebook.model.Assignment>
+			getAssignmentsByKeywords(
+				long groupId, String keywords, int start, int end,
+				com.liferay.portal.kernel.util.OrderByComparator
+					<com.liferay.training.gradebook.model.Assignment>
+						orderByComparator) {
 
 		return getService().getAssignmentsByKeywords(
 			groupId, keywords, start, end, orderByComparator);
@@ -90,21 +97,36 @@ public class AssignmentServiceUtil {
 		return getService().getOSGiServiceIdentifier();
 	}
 
-	public static Assignment updateAssignment(
-			long assignmentId, Map<java.util.Locale, String> titleMap,
-			Map<java.util.Locale, String> descriptionMap,
-			java.util.Date dueDate,
-			com.liferay.portal.kernel.service.ServiceContext serviceContext)
-		throws PortalException {
+	public static com.liferay.training.gradebook.model.Assignment
+			updateAssignment(
+				long assignmentId,
+				java.util.Map<java.util.Locale, String> titleMap,
+				java.util.Map<java.util.Locale, String> descriptionMap,
+				java.util.Date dueDate,
+				com.liferay.portal.kernel.service.ServiceContext serviceContext)
+		throws com.liferay.portal.kernel.exception.PortalException {
 
 		return getService().updateAssignment(
 			assignmentId, titleMap, descriptionMap, dueDate, serviceContext);
 	}
 
 	public static AssignmentService getService() {
-		return _service;
+		return _serviceTracker.getService();
 	}
 
-	private static volatile AssignmentService _service;
+	private static ServiceTracker<AssignmentService, AssignmentService>
+		_serviceTracker;
+
+	static {
+		Bundle bundle = FrameworkUtil.getBundle(AssignmentService.class);
+
+		ServiceTracker<AssignmentService, AssignmentService> serviceTracker =
+			new ServiceTracker<AssignmentService, AssignmentService>(
+				bundle.getBundleContext(), AssignmentService.class, null);
+
+		serviceTracker.open();
+
+		_serviceTracker = serviceTracker;
+	}
 
 }

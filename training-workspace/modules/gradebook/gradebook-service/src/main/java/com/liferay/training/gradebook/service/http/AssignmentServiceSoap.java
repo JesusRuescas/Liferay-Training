@@ -24,6 +24,8 @@ import java.rmi.RemoteException;
 import java.util.Locale;
 import java.util.Map;
 
+import org.osgi.annotation.versioning.ProviderType;
+
 /**
  * Provides the SOAP utility for the
  * <code>AssignmentServiceUtil</code> service
@@ -58,11 +60,11 @@ import java.util.Map;
  * <p>
  * The SOAP utility is only generated for remote services.
  * </p>
- *
- * @author Brian Wing Shun Chan
+
  * @see AssignmentServiceHttp
  * @generated
  */
+@ProviderType
 public class AssignmentServiceSoap {
 
 	public static com.liferay.training.gradebook.model.AssignmentSoap
@@ -87,10 +89,10 @@ public class AssignmentServiceSoap {
 			return com.liferay.training.gradebook.model.AssignmentSoap.
 				toSoapModel(returnValue);
 		}
-		catch (Exception exception) {
-			_log.error(exception, exception);
+		catch (Exception e) {
+			_log.error(e, e);
 
-			throw new RemoteException(exception.getMessage());
+			throw new RemoteException(e.getMessage());
 		}
 	}
 
@@ -105,10 +107,10 @@ public class AssignmentServiceSoap {
 			return com.liferay.training.gradebook.model.AssignmentSoap.
 				toSoapModel(returnValue);
 		}
-		catch (Exception exception) {
-			_log.error(exception, exception);
+		catch (Exception e) {
+			_log.error(e, e);
 
-			throw new RemoteException(exception.getMessage());
+			throw new RemoteException(e.getMessage());
 		}
 	}
 
@@ -123,10 +125,10 @@ public class AssignmentServiceSoap {
 			return com.liferay.training.gradebook.model.AssignmentSoap.
 				toSoapModel(returnValue);
 		}
-		catch (Exception exception) {
-			_log.error(exception, exception);
+		catch (Exception e) {
+			_log.error(e, e);
 
-			throw new RemoteException(exception.getMessage());
+			throw new RemoteException(e.getMessage());
 		}
 	}
 
@@ -142,10 +144,10 @@ public class AssignmentServiceSoap {
 			return com.liferay.training.gradebook.model.AssignmentSoap.
 				toSoapModels(returnValue);
 		}
-		catch (Exception exception) {
-			_log.error(exception, exception);
+		catch (Exception e) {
+			_log.error(e, e);
 
-			throw new RemoteException(exception.getMessage());
+			throw new RemoteException(e.getMessage());
 		}
 	}
 
@@ -165,10 +167,10 @@ public class AssignmentServiceSoap {
 			return com.liferay.training.gradebook.model.AssignmentSoap.
 				toSoapModels(returnValue);
 		}
-		catch (Exception exception) {
-			_log.error(exception, exception);
+		catch (Exception e) {
+			_log.error(e, e);
 
-			throw new RemoteException(exception.getMessage());
+			throw new RemoteException(e.getMessage());
 		}
 	}
 
@@ -183,10 +185,10 @@ public class AssignmentServiceSoap {
 
 			return returnValue;
 		}
-		catch (Exception exception) {
-			_log.error(exception, exception);
+		catch (Exception e) {
+			_log.error(e, e);
 
-			throw new RemoteException(exception.getMessage());
+			throw new RemoteException(e.getMessage());
 		}
 	}
 
@@ -213,10 +215,10 @@ public class AssignmentServiceSoap {
 			return com.liferay.training.gradebook.model.AssignmentSoap.
 				toSoapModel(returnValue);
 		}
-		catch (Exception exception) {
-			_log.error(exception, exception);
+		catch (Exception e) {
+			_log.error(e, e);
 
-			throw new RemoteException(exception.getMessage());
+			throw new RemoteException(e.getMessage());
 		}
 	}
 
