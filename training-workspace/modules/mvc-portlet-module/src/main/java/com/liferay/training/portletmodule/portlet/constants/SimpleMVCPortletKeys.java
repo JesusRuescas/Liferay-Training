@@ -1,8 +1,5 @@
 package com.liferay.training.portletmodule.portlet.constants;
 
-/**
- * @author safira-cli
- */
 public class SimpleMVCPortletKeys {
 
 	public static final String SIMPLEMVC =
