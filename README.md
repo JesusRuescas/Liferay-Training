@@ -66,7 +66,7 @@
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook">Implement assignment local service. :white_check_mark:</li>
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook">Implement assignment remote service. :white_check_mark:</li>
          <li>Create the Presentation Layers. :white_check_mark:</li>
-         <li>Exercise: <a href="">Create the gradebook web module.</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook/gradebook-web">Create the gradebook web module. :white_check_mark:</li>
          <li>Create the Presentation Layers part 2.</li>
          <li>Exercise: <a href="">Implement the manin view.</li>
          <li>Exercise: <a href="">Implement the manin view part 2.</li>
