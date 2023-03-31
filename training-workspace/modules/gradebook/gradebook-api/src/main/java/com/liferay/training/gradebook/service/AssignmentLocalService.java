@@ -27,6 +27,7 @@ import com.liferay.portal.kernel.search.Indexable;
 import com.liferay.portal.kernel.search.IndexableType;
 import com.liferay.portal.kernel.service.BaseLocalService;
 import com.liferay.portal.kernel.service.PersistedModelLocalService;
+import com.liferay.portal.kernel.service.ServiceContext;
 import com.liferay.portal.kernel.transaction.Isolation;
 import com.liferay.portal.kernel.transaction.Propagation;
 import com.liferay.portal.kernel.transaction.Transactional;
@@ -35,7 +36,10 @@ import com.liferay.training.gradebook.model.Assignment;
 
 import java.io.Serializable;
 
+import java.util.Date;
 import java.util.List;
+import java.util.Locale;
+import java.util.Map;
 
 import org.osgi.annotation.versioning.ProviderType;
 
@@ -75,6 +79,12 @@ public interface AssignmentLocalService
 	 */
 	@Indexable(type = IndexableType.REINDEX)
 	public Assignment addAssignment(Assignment assignment);
+
+	public Assignment addAssignment(
+			long groupId, Map<Locale, String> titleMap,
+			Map<Locale, String> descriptionMap, Date dueDate,
+			ServiceContext serviceContext)
+		throws PortalException;
 
 	/**
 	 * Creates a new assignment with the primary key. Does not add the assignment to the database.
@@ -239,6 +249,23 @@ public interface AssignmentLocalService
 	@Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
 	public List<Assignment> getAssignments(int start, int end);
 
+	@Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
+	public List<Assignment> getAssignmentsByGroupId(long groupId);
+
+	@Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
+	public List<Assignment> getAssignmentsByGroupId(
+		long groupId, int start, int end);
+
+	@Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
+	public List<Assignment> getAssignmentsByGroupId(
+		long groupId, int start, int end,
+		OrderByComparator<Assignment> orderByComparator);
+
+	@Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
+	public List<Assignment> getAssignmentsByKeywords(
+		long groupId, String keywords, int start, int end,
+		OrderByComparator<Assignment> orderByComparator);
+
 	/**
 	 * Returns all the assignments matching the UUID and company.
 	 *
@@ -274,6 +301,9 @@ public interface AssignmentLocalService
 	public int getAssignmentsCount();
 
 	@Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
+	public long getAssignmentsCountByKeywords(long groupId, String keywords);
+
+	@Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
 	public ExportActionableDynamicQuery getExportActionableDynamicQuery(
 		PortletDataContext portletDataContext);
 
@@ -307,5 +337,11 @@ public interface AssignmentLocalService
 	 */
 	@Indexable(type = IndexableType.REINDEX)
 	public Assignment updateAssignment(Assignment assignment);
+
+	public Assignment updateAssignment(
+			long assignmentId, Map<Locale, String> titleMap,
+			Map<Locale, String> descriptionMap, Date dueDate,
+			ServiceContext serviceContext)
+		throws PortalException;
 
 }

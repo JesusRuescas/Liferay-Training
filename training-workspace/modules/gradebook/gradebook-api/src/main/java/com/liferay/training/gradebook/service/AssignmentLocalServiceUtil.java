@@ -23,6 +23,7 @@ import com.liferay.training.gradebook.model.Assignment;
 import java.io.Serializable;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * Provides the local service utility for Assignment. This utility wraps
@@ -56,6 +57,17 @@ public class AssignmentLocalServiceUtil {
 	 */
 	public static Assignment addAssignment(Assignment assignment) {
 		return getService().addAssignment(assignment);
+	}
+
+	public static Assignment addAssignment(
+			long groupId, Map<java.util.Locale, String> titleMap,
+			Map<java.util.Locale, String> descriptionMap,
+			java.util.Date dueDate,
+			com.liferay.portal.kernel.service.ServiceContext serviceContext)
+		throws PortalException {
+
+		return getService().addAssignment(
+			groupId, titleMap, descriptionMap, dueDate, serviceContext);
 	}
 
 	/**
@@ -252,6 +264,32 @@ public class AssignmentLocalServiceUtil {
 		return getService().getAssignments(start, end);
 	}
 
+	public static List<Assignment> getAssignmentsByGroupId(long groupId) {
+		return getService().getAssignmentsByGroupId(groupId);
+	}
+
+	public static List<Assignment> getAssignmentsByGroupId(
+		long groupId, int start, int end) {
+
+		return getService().getAssignmentsByGroupId(groupId, start, end);
+	}
+
+	public static List<Assignment> getAssignmentsByGroupId(
+		long groupId, int start, int end,
+		OrderByComparator<Assignment> orderByComparator) {
+
+		return getService().getAssignmentsByGroupId(
+			groupId, start, end, orderByComparator);
+	}
+
+	public static List<Assignment> getAssignmentsByKeywords(
+		long groupId, String keywords, int start, int end,
+		OrderByComparator<Assignment> orderByComparator) {
+
+		return getService().getAssignmentsByKeywords(
+			groupId, keywords, start, end, orderByComparator);
+	}
+
 	/**
 	 * Returns all the assignments matching the UUID and company.
 	 *
@@ -290,6 +328,12 @@ public class AssignmentLocalServiceUtil {
 	 */
 	public static int getAssignmentsCount() {
 		return getService().getAssignmentsCount();
+	}
+
+	public static long getAssignmentsCountByKeywords(
+		long groupId, String keywords) {
+
+		return getService().getAssignmentsCountByKeywords(groupId, keywords);
 	}
 
 	public static com.liferay.portal.kernel.dao.orm.ExportActionableDynamicQuery
@@ -337,6 +381,17 @@ public class AssignmentLocalServiceUtil {
 	 */
 	public static Assignment updateAssignment(Assignment assignment) {
 		return getService().updateAssignment(assignment);
+	}
+
+	public static Assignment updateAssignment(
+			long assignmentId, Map<java.util.Locale, String> titleMap,
+			Map<java.util.Locale, String> descriptionMap,
+			java.util.Date dueDate,
+			com.liferay.portal.kernel.service.ServiceContext serviceContext)
+		throws PortalException {
+
+		return getService().updateAssignment(
+			assignmentId, titleMap, descriptionMap, dueDate, serviceContext);
 	}
 
 	public static AssignmentLocalService getService() {
