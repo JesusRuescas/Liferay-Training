@@ -64,7 +64,7 @@
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook">Create the assignment service. :white_check_mark:</li>
          <li>Introducing Liferay Service Builder part 2. :white_check_mark:</li>
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook">Implement assignment local service. :white_check_mark:</li>
-         <li>Exercise: <a href="">Implement assignment remote service.</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook">Implement assignment remote service. :white_check_mark:</li>
          <li>Create the Presentation Layers.</li>
          <li>Exercise: <a href="">Create the gradebook web module.</li>
          <li>Create the Presentation Layers part 2.</li>
