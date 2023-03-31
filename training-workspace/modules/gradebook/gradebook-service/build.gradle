@@ -9,6 +9,8 @@ dependencies {
 	compileOnly group: "org.osgi", name: "org.osgi.annotation.versioning"
 	compileOnly group: "org.osgi", name: "org.osgi.core"
 	compileOnly group: "org.osgi", name: "org.osgi.service.component.annotations"
+	compile group: "javax.portlet", name:"portlet-api"
+	compile group: 'javax.servlet', name: 'javax.servlet-api'
 }
 
 buildService {
