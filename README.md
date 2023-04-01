@@ -71,8 +71,8 @@
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook/gradebook-web/src/main/resources/META-INF/resources">Implement the manin view. :white_check_mark:</li>
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook/gradebook-web/src/main/java/com/liferay/training/gradebook/web">Implement the manin view part 2. :white_check_mark:</li>
          <li>Create the Presentation Layers part 3. :white_check_mark:</li>
-         <li>Exercise: <a href=" https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook/gradebook-web/src/main/resources/META-INF/resources/assignment">Implement the assignment editing view. :white_check_mark:</li>
-         <li>Exercise: <a href="">Implement the assignment editing view part 2. :white_check_mark:</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/blob/main/training-workspace/modules/gradebook/gradebook-web/src/main/java/com/liferay/training/gradebook/web/portlet/action/EditAssignmentMVCRenderCommand.java">Implement the assignment editing view. :white_check_mark:</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/blob/main/training-workspace/modules/gradebook/gradebook-web/src/main/java/com/liferay/training/gradebook/web/portlet/action/EditAssignmentMVCActionCommand.java">Implement the assignment editing view part 2. :white_check_mark:</li>
          <li>Create the Presentation Layers part 4. :white_check_mark:</li>
          <li>Implement validation. :white_check_mark:</li>
          <li>Implement validation part 2. :white_check_mark:</li>
