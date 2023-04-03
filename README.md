@@ -100,8 +100,8 @@
       <ul>
          <li>Customize the User Interface :white_check_mark:</li>
          <li>Change the Default Application UI with Widget Templates :white_check_mark:</li>
-         <li>Exercise: <a href="">Create a Media Gallery Widget Template.</a></li>
-         <li>Customize the Application JSPs</li>
+         <li>Exercise: <a href="">Create a Media Gallery Widget Template.</a> :white_check_mark: <strong>This exercise does not generate code</strong></li>
+         <li>Customize the Application JSPs :white_check_mark:</li>
          <li>Exercise: <a href="">Overriding the Blogs Portlet view entry jsp.</li>
       </ul>
    </div>
