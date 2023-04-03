@@ -106,10 +106,10 @@
       </ul>
    </div>
    <div>
-      <h4>:jigsaw:  7.2 Back-End Developer (9/14) - Extend Liferay Schema</h4>
+      <h4>:jigsaw:  7.2 Back-End Developer (9/14) - Extend Liferay Schema :white_check_mark:</h4>
       <ul>
          <li>Extend Liferay's Schema :white_check_mark:</li>
-         <li>Exercise: <a href="">Add a Custom Field Programmatically.</a></li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/expando">Add a Custom Field Programmatically.</a> :white_check_mark:</li>
       </ul>
    </div>
    <div>
