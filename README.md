@@ -69,25 +69,23 @@
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook/gradebook-web">Create the gradebook web module. :white_check_mark:</li>
          <li>Create the Presentation Layers part 2. :white_check_mark:</li>
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook/gradebook-web/src/main/resources/META-INF/resources">Implement the manin view. :white_check_mark:</li>
-         <li>Exercise: <a href="">Implement the manin view part 2.</li>
-         <li>Create the Presentation Layers part 3.</li>
-         <li>Implement the assignment editing view.</li>
-         <li>Implement the assignment editing view part 2.</li>
-         <li>Create the Presentation Layers part 4.</li>
-         <li>Implement validation.</li>
-         <li>Implement validation part 2.</li>
-         <li>Create the Presentation Layers part 5.</li>
-         <li>Exercise: <a href="">Add localization resources.</li>
-         <li>Create the Presentation Layers part 6.</li>
-         <li>Exercise: <a href="">Add CSS resources.</li>
-         <li>Implement Access Control.</li>
-         <li>Exercise: <a href="">Implement the assignment editing view.</li>
-         <li>Exercise: <a href="">Implement the assignment editing view part 2.</li>
-         <li>Exercise: <a href="">Implement service module permissions.</li>
-         <li>Exercise: <a href="">Implement service module permissions part 2.</li>
-         <li>Integrate with Asset Framework.</li>
-         <li>Exercise: <a href="">Integrate with the asset framework.</li>
-         <li>Integrate with Asset Framework part 2.</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook/gradebook-web/src/main/java/com/liferay/training/gradebook/web">Implement the manin view part 2. :white_check_mark:</li>
+         <li>Create the Presentation Layers part 3. :white_check_mark:</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/blob/main/training-workspace/modules/gradebook/gradebook-web/src/main/java/com/liferay/training/gradebook/web/portlet/action/EditAssignmentMVCRenderCommand.java">Implement the assignment editing view. :white_check_mark:</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/blob/main/training-workspace/modules/gradebook/gradebook-web/src/main/java/com/liferay/training/gradebook/web/portlet/action/EditAssignmentMVCActionCommand.java">Implement the assignment editing view part 2. :white_check_mark:</li>
+         <li>Create the Presentation Layers part 4. :white_check_mark:</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/blob/main/training-workspace/modules/gradebook/gradebook-api/src/main/java/com/liferay/training/gradebook/validator/AssignmentValidator.java">Implement validation. :white_check_mark:</li>
+         <li>Exercise: <a href="">Implement validation part 2. :white_check_mark:</li>
+         <li>Create the Presentation Layers part 5. :white_check_mark:</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/blob/main/training-workspace/modules/gradebook/gradebook-web/src/main/resources/content/Language.properties">Add localization resources. :white_check_mark:</li>
+         <li>Create the Presentation Layers part 6. :white_check_mark:</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook/gradebook-web/src/main/resources/META-INF/resources/css">Add CSS resources. :white_check_mark:</li>
+         <li>Implement Access Control. :white_check_mark:</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook/gradebook-service/src/main">Implement service module permissions. :white_check_mark:</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook/gradebook-service/src/main/java/com/liferay/training/gradebook/internal/security/permission/resource/definition">Implement service module permissions part 2. :white_check_mark:</li>
+         <li>Integrate with Asset Framework. :white_check_mark:</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/blob/main/training-workspace/modules/gradebook/gradebook-service/service.xml">Integrate with the asset framework. :white_check_mark:</li>
+         <li>Integrate with Asset Framework part 2. :white_check_mark:</li>
          <li>Exercise: <a href="">Implement Keyword Matching to Portal Search.</li>
       </ul>
    </div>
