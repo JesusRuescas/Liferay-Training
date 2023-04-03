@@ -113,17 +113,17 @@
       </ul>
    </div>
    <div>
-      <h4>:jigsaw:  7.2 Back-End Developer (10/14) - Customize the Service Layer</h4>
+      <h4>:jigsaw:  7.2 Back-End Developer (10/14) - Customize the Service Layer :white_check_mark:</h4>
       <ul>
-         <li>Customize the Service Layer</li>
-         <li>Exercise: <a href="">Customize the Liferay UserLocalService with a Service Wrapper.</a></li>
-         <li>Override OSGI Service References</li>
+         <li>Customize the Service Layer :white_check_mark:</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/user-local-service-orverride">Customize the Liferay UserLocalService with a Service Wrapper.</a> :white_check_mark:</li>
+         <li>Override OSGI Service References :white_check_mark:</li>
       </ul>
    </div>
    <div>
       <h4>:jigsaw:  7.2 Back-End Developer (11/14) - Override Controller Actions</h4>
       <ul>
-         <li>Override Portal MVC Commands</li>
+         <li>Override Portal MVC Commands :white_check_mark:</li>
          <li>Exercise: <a href="">Override the Documents and Media MVC Action Command.</a></li>
          <li>Override Struts Actions</li>
       </ul>
