@@ -141,16 +141,16 @@
       <h4>:jigsaw:  7.2 Back-End Developer (13/14) - Leverage Liferay Message Bus :white_check_mark:</h4>
       <ul>
          <li>Leverage Liferay Message Bus. :white_check_mark:</li>
-         <li>Exercise: <a href="">Create a Documents and Media Message Bus Listener.</a></li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/message-bus-listener">Create a Documents and Media Message Bus Listener.</a> :white_check_mark:</li>
       </ul>
    </div>
     <div>
-      <h4>:jigsaw:  7.2 Back-End Developer (14/14) - Customize the Portal Search</h4>
+      <h4>:jigsaw:  7.2 Back-End Developer (14/14) - Customize the Portal Search :white_check_mark:</h4>
       <ul>
-         <li>Liferay Search Architecture</li>
-         <li>Basic Search Concepts</li>
-         <liBasic Search Concepts</li>
-         <li>Customize Indexing and Searching</li>
+         <li>Liferay Search Architecture :white_check_mark:</li>
+         <li>Basic Search Concepts :white_check_mark:</li>
+         <liBasic Search Concepts :white_check_mark:</li>
+         <li>Customize Indexing and Searching :white_check_mark:</li>
          <li>Exercise: <a href="">Implement Keyword Matching to Portal Search.</a></li>
       </ul>
    </div>
