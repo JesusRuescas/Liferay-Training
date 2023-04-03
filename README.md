@@ -121,11 +121,11 @@
       </ul>
    </div>
    <div>
-      <h4>:jigsaw:  7.2 Back-End Developer (11/14) - Override Controller Actions</h4>
+      <h4>:jigsaw:  7.2 Back-End Developer (11/14) - Override Controller Actions :white_check_mark:</h4>
       <ul>
          <li>Override Portal MVC Commands :white_check_mark:</li>
-         <li>Exercise: <a href="">Override the Documents and Media MVC Action Command.</a></li>
-         <li>Override Struts Actions</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/mvc-command-override">Override the Documents and Media MVC Action Command.</a> :white_check_mark:</li>
+         <li>Override Struts Actions :white_check_mark:</li>
       </ul>
    </div>
    <div>
