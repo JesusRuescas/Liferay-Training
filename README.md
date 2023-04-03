@@ -134,7 +134,7 @@
          <li>Catch Portal Lifecycle Events. :white_check_mark:</li>
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/post-login-event-listener">Create a Post Login Action.</a> :white_check_mark:</li>
          <li>Intercept Events with Model Listeners. :white_check_mark:</li>
-         <li>Exercise: <a href="">Create a User Model Listener.</a> </li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/user-post-update-model-listener">Create a User Model Listener.</a> :white_check_mark:</li>
       </ul>
    </div>
    <div>
