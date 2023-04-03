@@ -82,7 +82,7 @@
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook/gradebook-web/src/main/resources/META-INF/resources/css">Add CSS resources. :white_check_mark:</li>
          <li>Implement Access Control. :white_check_mark:</li>
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook/gradebook-service/src/main">Implement service module permissions. :white_check_mark:</li>
-         <li>Exercise: <a href="">Implement service module permissions part 2.</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook/gradebook-service/src/main/java/com/liferay/training/gradebook/internal/security/permission/resource/definition">Implement service module permissions part 2. :white_check_mark:</li>
          <li>Integrate with Asset Framework.</li>
          <li>Exercise: <a href="">Integrate with the asset framework.</li>
          <li>Integrate with Asset Framework part 2.</li>
