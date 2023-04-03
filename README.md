@@ -138,9 +138,9 @@
       </ul>
    </div>
    <div>
-      <h4>:jigsaw:  7.2 Back-End Developer (13/14) - Leverage Liferay Message Bus</h4>
+      <h4>:jigsaw:  7.2 Back-End Developer (13/14) - Leverage Liferay Message Bus :white_check_mark:</h4>
       <ul>
-         <li>Leverage Liferay Message Bus.</li>
+         <li>Leverage Liferay Message Bus. :white_check_mark:</li>
          <li>Exercise: <a href="">Create a Documents and Media Message Bus Listener.</a></li>
       </ul>
    </div>
