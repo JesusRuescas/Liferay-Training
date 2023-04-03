@@ -79,8 +79,8 @@
          <li>Create the Presentation Layers part 5. :white_check_mark:</li>
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/blob/main/training-workspace/modules/gradebook/gradebook-web/src/main/resources/content/Language.properties">Add localization resources. :white_check_mark:</li>
          <li>Create the Presentation Layers part 6. :white_check_mark:</li>
-         <li>Exercise: <a href="">Add CSS resources.</li>
-         <li>Implement Access Control.</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook/gradebook-web/src/main/resources/META-INF/resources/css">Add CSS resources. :white_check_mark:</li>
+         <li>Implement Access Control. :white_check_mark:</li>
          <li>Exercise: <a href="">Implement the assignment editing view.</li>
          <li>Exercise: <a href="">Implement the assignment editing view part 2.</li>
          <li>Exercise: <a href="">Implement service module permissions.</li>
