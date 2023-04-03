@@ -151,7 +151,7 @@
          <li>Basic Search Concepts :white_check_mark:</li>
          <liBasic Search Concepts :white_check_mark:</li>
          <li>Customize Indexing and Searching :white_check_mark:</li>
-         <li>Exercise: <a href="">Implement Keyword Matching to Portal Search.</a></li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/indexer-post-processor">Implement Keyword Matching to Portal Search.</a> :white_check_mark:</li>
       </ul>
    </div>
 </div>
