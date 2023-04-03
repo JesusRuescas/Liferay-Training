@@ -77,8 +77,8 @@
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/blob/main/training-workspace/modules/gradebook/gradebook-api/src/main/java/com/liferay/training/gradebook/validator/AssignmentValidator.java">Implement validation. :white_check_mark:</li>
          <li>Exercise: <a href="">Implement validation part 2. :white_check_mark:</li>
          <li>Create the Presentation Layers part 5. :white_check_mark:</li>
-         <li>Exercise: <a href="">Add localization resources.</li>
-         <li>Create the Presentation Layers part 6.</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/blob/main/training-workspace/modules/gradebook/gradebook-web/src/main/resources/content/Language.properties">Add localization resources. :white_check_mark:</li>
+         <li>Create the Presentation Layers part 6. :white_check_mark:</li>
          <li>Exercise: <a href="">Add CSS resources.</li>
          <li>Implement Access Control.</li>
          <li>Exercise: <a href="">Implement the assignment editing view.</li>
