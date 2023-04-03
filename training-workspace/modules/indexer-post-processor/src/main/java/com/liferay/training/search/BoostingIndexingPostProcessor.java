@@ -13,9 +13,6 @@ import com.liferay.portal.kernel.util.Validator;
 
 import org.osgi.service.component.annotations.Component;
 
-/**
- * @author maria.luque.lopez
- */
 @Component(
 	immediate = true,
 	property = {
