@@ -129,12 +129,12 @@
       </ul>
    </div>
    <div>
-      <h4>:jigsaw:  7.2 Back-End Developer (12/14) - Catch Portal Events</h4>
+      <h4>:jigsaw:  7.2 Back-End Developer (12/14) - Catch Portal Events :white_check_mark:</h4>
       <ul>
-         <li>Catch Portal Lifecycle Events :white_check_mark:.</li>
-         <li>Exercise: <a href="">Create a Post Login Action.</a></li>
-         <li>Intercept Events with Model Listeners.</li>
-         <li>Exercise: <a href="">Create a User Model Listener.</a></li>
+         <li>Catch Portal Lifecycle Events. :white_check_mark:</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/post-login-event-listener">Create a Post Login Action.</a> :white_check_mark:</li>
+         <li>Intercept Events with Model Listeners. :white_check_mark:</li>
+         <li>Exercise: <a href="">Create a User Model Listener.</a> </li>
       </ul>
    </div>
    <div>
