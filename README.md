@@ -96,19 +96,19 @@
       </ul>
    </div>
  <div>
-      <h4>:jigsaw:  7.2 Back-End Developer (8/14) - Customize the User Interface</h4>
+      <h4>:jigsaw:  7.2 Back-End Developer (8/14) - Customize the User Interface :white_check_mark:</h4>
       <ul>
          <li>Customize the User Interface :white_check_mark:</li>
          <li>Change the Default Application UI with Widget Templates :white_check_mark:</li>
          <li>Exercise: <a href="">Create a Media Gallery Widget Template.</a> :white_check_mark: <strong>This exercise does not generate code</strong></li>
          <li>Customize the Application JSPs :white_check_mark:</li>
-         <li>Exercise: <a href="">Overriding the Blogs Portlet view entry jsp.</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/announcements-jsp-override">Overriding the Blogs Portlet view entry jsp. :white_check_mark:</li>
       </ul>
    </div>
    <div>
       <h4>:jigsaw:  7.2 Back-End Developer (9/14) - Extend Liferay Schema</h4>
       <ul>
-         <li>Extend Liferay's Schema</li>
+         <li>Extend Liferay's Schema :white_check_mark:</li>
          <li>Exercise: <a href="">Add a Custom Field Programmatically.</a></li>
       </ul>
    </div>
