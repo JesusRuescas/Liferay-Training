@@ -57,7 +57,7 @@
       </ul>
    </div>
    <div>
-      <h4>:jigsaw:  7.2 Back-End Developer (6/14) - Real World Application</h4>
+      <h4>:jigsaw:  7.2 Back-End Developer (6/14) - Real World Application :white_check_mark:</h4>
       <ul>
          <li>Develop a Real World Application Overview. :white_check_mark:</li>
          <li>Introducing Liferay Service Builder. :white_check_mark:</li>
@@ -86,7 +86,7 @@
          <li>Integrate with Asset Framework. :white_check_mark:</li>
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/blob/main/training-workspace/modules/gradebook/gradebook-service/service.xml">Integrate with the asset framework. :white_check_mark:</li>
          <li>Integrate with Asset Framework part 2. :white_check_mark:</li>
-         <li>Exercise: <a href="">Implement Keyword Matching to Portal Search.</li>
+         <li>Exercise: <a href="">Implement Keyword Matching to Portal Search. :white_check_mark:</li>
       </ul>
    </div>
        <div>
