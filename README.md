@@ -81,9 +81,7 @@
          <li>Create the Presentation Layers part 6. :white_check_mark:</li>
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook/gradebook-web/src/main/resources/META-INF/resources/css">Add CSS resources. :white_check_mark:</li>
          <li>Implement Access Control. :white_check_mark:</li>
-         <li>Exercise: <a href="">Implement the assignment editing view.</li>
-         <li>Exercise: <a href="">Implement the assignment editing view part 2.</li>
-         <li>Exercise: <a href="">Implement service module permissions.</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/gradebook/gradebook-service/src/main">Implement service module permissions. :white_check_mark:</li>
          <li>Exercise: <a href="">Implement service module permissions part 2.</li>
          <li>Integrate with Asset Framework.</li>
          <li>Exercise: <a href="">Integrate with the asset framework.</li>
