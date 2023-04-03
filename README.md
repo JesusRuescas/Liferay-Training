@@ -86,7 +86,7 @@
          <li>Integrate with Asset Framework. :white_check_mark:</li>
          <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/blob/main/training-workspace/modules/gradebook/gradebook-service/service.xml">Integrate with the asset framework. :white_check_mark:</li>
          <li>Integrate with Asset Framework part 2. :white_check_mark:</li>
-         <li>Exercise: <a href="">Implement Keyword Matching to Portal Search. :white_check_mark:</li>
+         <li>Exercise: <a href="https://github.com/JesusRuescas/Liferay-Training/tree/main/training-workspace/modules/indexer-post-processor">Implement Keyword Matching to Portal Search. :white_check_mark:</li>
       </ul>
    </div>
        <div>
